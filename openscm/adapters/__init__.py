@@ -207,6 +207,8 @@ def load_adapter(name: str) -> type:
             from .dice import DICE  # pylint: disable=cyclic-import
 
             adapter = DICE
+        elif name == "CSCMAdapter":
+            from .cscmadapter import CSCMAdapter
 
         """
         When implementing an additional adapter, include your adapter NAME here as:

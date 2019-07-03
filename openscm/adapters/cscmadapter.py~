@@ -45,7 +45,7 @@ class CSCMAdapter(Adapter):
     parameters to :class:`self._output
     <~openscm.adapter.Adapter._output>` (see below).
     """
-    self._current_time += YEAR
+       #self._current_time += YEAR
 
 
     def _shutdown(self) -> None:
