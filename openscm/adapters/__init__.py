@@ -50,7 +50,13 @@ def load_adapter(name: str) -> Optional[type]:
 
             adapter = NAME
         ```
+
+        
         """
+
+
+
+            
     except ImportError:
         raise AdapterNeedsModuleError(
             "To run '{name}' you need to install additional dependencies. Please "
